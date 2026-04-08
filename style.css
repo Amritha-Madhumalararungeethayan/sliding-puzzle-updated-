@@ -2,7 +2,7 @@ html{
     background-color: black;
 }
  
-hi{
+h1{
     text-align:center;
     font-size: 4rem;
 }
@@ -17,14 +17,24 @@ hi{
 }
 
 .selected {
-    background-color: #FFF;
+    background-color: white;
     border: none;
     color: white;
 }
 
-.btn {
+.button {
     font-size: 24px;
     height: 80px;
     width: 25%;
     cursor: pointer;
+}
+#tiles {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+    padding: 8px;
+    border-radius: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }

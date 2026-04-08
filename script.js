@@ -45,6 +45,9 @@ function loadTile(){
         newTile.setAttribute("index",i);
         newTile.classList.add('button');
         newTile.innerHTML = i ; 
+         newTile.addEventListener('click', () => {
+            swap(i);
+        });
         boxcontainer.append(newTile);
     }let selectedTileId =  'btn' +highlighted;
     selectedTile = document.getElementById(selectedTileId);

@@ -17,6 +17,7 @@ h1{
 }
 
 .selected {
+    height : 80px;
     background-color: white;
     border: none;
     color: white;
@@ -25,7 +26,7 @@ h1{
 .button {
     font-size: 24px;
     height: 80px;
-    width: 25%;
+    
     cursor: pointer;
 }
 #tiles {
